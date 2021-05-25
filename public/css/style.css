@@ -1,0 +1,72 @@
+:root {
+    --main-bg-color: #edf5fe;
+    --light-blue: #03a9f4;
+    --border-color: #0288d147;
+    --container-width: 500px;
+  }
+  
+  body {
+    font-family: system-ui;
+    background: var(--main-bg-color);
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#333;
+    overflow: hidden;
+  }
+  
+  
+ .download
+ {
+   max-width:90%;
+   background-color: #fff;
+   text-align: center;
+   box-shadow: 0px 20px 20px 0px #00000017;
+   padding: 3rem;
+ }
+  .send-btn-container
+  {
+    
+   
+    display: flex;
+   
+    justify-content: center;
+  }
+  .download__meta h4 {
+    margin-bottom: 0;
+    line-height: 1.3;
+}
+  
+  .send-btn-container a {
+    font-size: 18px;
+    padding: 8px 40px;
+    margin-top: 25px;
+    background:rgb(18, 18, 88);
+    border: none;
+    border-radius: 5px;
+    color: #d7f2ff;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+  
+  .send-btn-container a:hover{
+    background-color: rgb(69, 210, 245);
+    color:#333
+  }
+
+  
+  @media screen and (max-width: 900px) {
+    :root {
+      --container-width: 320px;
+    }
+    
+  }
+
+  .download__icon{
+    width: auto;
+    height: 6em;
+    opacity: 50%;
+  }
