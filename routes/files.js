@@ -43,6 +43,7 @@ router.post('/', (req, res) => {
     })
 })
 
+//email part
 router.post('/send', async (req, res) => {
     const { uuid, emailTo, emailFrom } = req.body;
     // console.log(req.body);
